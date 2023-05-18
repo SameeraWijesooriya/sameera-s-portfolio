@@ -253,7 +253,7 @@ button{
     left: 5%;
     top: 10%;
     opacity: 0.3;
-    animation: zoomInOut 8s linear infinite;
+    animation: zoomInOut 4s linear infinite;
 }
 .bg-circles .circle-2{
     height: 80px;
@@ -262,7 +262,7 @@ button{
     left: 30%;
     top: 50%;
     opacity: 0.4;
-    animation: bounceTop 5s ease-in-out infinite;
+    animation: bounceTop 3s ease-in-out infinite;
 }
 .bg-circles .circle-3{
     height: 120px;
@@ -271,6 +271,8 @@ button{
     right: -60px;
     top: 40%;
     opacity: 0.6;
+    animation:bounceTop 5s,zoomInOut 3s ease-in-out infinite;
+   
 }
 .bg-circles .circle-4{
     height: 50px;
@@ -279,6 +281,7 @@ button{
     left: 30px;
     top: 80%;
     opacity: 0.6;
+    animation: zoomInOut 4s ease-in-out infinite;
 }
 
 /* Overlay */
